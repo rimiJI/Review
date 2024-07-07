@@ -1,0 +1,27 @@
+Review_yesterday_240708
+
+def solution (N):
+	count=0
+	if n%i=0:
+		count+=1
+	else:
+		countinue
+	return count
+
+
+
+def solution(n):
+	return len[i for i in range(1,21) if n%i==0 ] #여기에 range(20) 하면 0을 나눗셈에 적용하는 거니까  zeroDvisionError가 뜬다. 
+
+
+Objects -Collections of data and functionality
+Actors Object that can go on an actor 
+Reference Where to find an object
+Data Pin the input or output data for a node
+Execution pins when to run this node
+Glossary 
+
+staticMesh component Cube Address
+References 참조 impulse 힘 impulse 힘 impulse 힘 impulse 힘 
+impulse impulse 힘 execution executiondexecution execution execution execution execution execution execution execution execution execution 
+force mass 

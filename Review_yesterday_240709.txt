@@ -1,0 +1,20 @@
+review - 240709
+
+markdown
+
+<dr> 띄어쓰기 `인용` 1.1.1.1.순번 - 목록 # ## ### #### ##### ###### 제목 _이탤릭체_ **볼드체** ~~취소선~~ [글씨](링크)  ![이미지글씨](이미지링크) def 함수에서 return 이후로 어떤 걸 쓰든 실행 안됨 return f"사과{a}" 이렇게 string형을 return값에 직접 넣어줄 수 있음. 
+def makeJuice(a):
+	return f"{a} 주스"
+
+def addIce(a):
+	return f"{a} 시원하고"
+
+def addSugar(a):
+	return f"{a} 달콤한"
+
+juice=makeJuice(사과) #값: 사과 주스
+coldjuice=addIce(juice) #값: 사과 주스 시원하고
+sweetcoldjuice=addSugar(coldjuice) #값: 사과 주스 시원하고 달콤한
+print(sweetcoldjuice) #사과 주스 시원하고 달콤한
+
+spawning is creating a object while playing<br>struct: a object that is usually small<br>DataType: The shape of your data<br>Objects: collection of data and functionality<br>ProjectPlan is<br>1. spawning 1. Building a level 1. Limiting ammo 1. Reloading levels<br> - press f8 in playing time -> turn into a first-p shooting game - `Get actor forward vector` between `spawnActor` and `add Impulse` is taking a camera direction vector of Always size 1 and fire from the camera direction rather than Default spawn. Dafult unit in unreal Engine is cm. So, if want to represent 7meters, input value 700= 7 * 100 . <br> - Branch in unreal Blueprint Node means given one condition, and doing sometiong or don't, based on a booltype. 

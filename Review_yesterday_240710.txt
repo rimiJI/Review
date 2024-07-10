@@ -1,0 +1,27 @@
+Review_yesterday_240710
+
+python run procedurally if elif elif else. import random random.randint(1,50). it's possible put the conditions in while statement as true and false.
+
+import random as randint
+
+pc=randint(1,50) while playing: user=int(input("choose: ")) if  ..... 
+namespace is used to prevent name conflicts and to manager them systematically.
+it's same import pythons library, and call as something simple.
+
+#include <stdio.h>
+
+int main(){
+	printf("블라블라");
+	return 0;
+}
+
+//define namespace 
+namespace MyName{
+	int My=42;
+	void myFuc(){
+
+	
+	}
+
+}
+
